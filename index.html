@@ -13,12 +13,58 @@
       color: #333;
       scroll-behavior: smooth;
     }
+
+    /* Hero Section */
     header {
-      background-color: #1f2a44;
-      color: white;
-      padding: 40px 20px;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #1f2a44, #3b4d70);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
     }
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .hero-content h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+      animation: fadeInDown 2s ease;
+    }
+    .hero-content .tagline {
+      font-size: 22px;
+      margin-bottom: 30px;
+      animation: fadeInUp 2.5s ease;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ffcc00;
+      color: #1f2a44;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .cta-button:hover {
+      transform: scale(1.1);
+      background-color: #ffd633;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Navigation */
     nav {
       position: sticky;
       top: 0;
@@ -34,7 +80,16 @@
       text-decoration: none;
       color: #1f2a44;
       font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.3s, color 0.3s;
     }
+    nav a:hover {
+      background-color: #1f2a44;
+      color: white;
+    }
+
+    /* Sections */
     section {
       max-width: 900px;
       margin: 60px auto;
@@ -52,15 +107,68 @@
       font-size: 18px;
       line-height: 1.6;
     }
+
+    /* Project Cards */
+    .project-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .project-card img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #1f2a44;
+    }
+
+    /* Contact Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    button {
+      padding: 12px;
+      background-color: #1f2a44;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #3b4d70;
+    }
   </style>
 </head>
 <body>
 
+  <!-- Hero Section -->
   <header>
-    <h1>PRITHIKA GOPINATH</h1>
-    <p>Computer Science Student | CSI Ambassador | Cybersecurity Explorer</p>
+    <div class="hero-content">
+      <h1>PRITHIKA GOPINATH</h1>
+      <p class="tagline">Cybersecurity Student | Developer | Privacy Advocate</p>
+      <a href="#projects" class="cta-button">View My Work</a>
+    </div>
   </header>
 
+  <!-- Navigation -->
   <nav>
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
@@ -71,19 +179,13 @@
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- About -->
   <section id="about">
     <h2>About Me</h2>
-    <p> I’m a second-year Computer Science student at London South Bank University, 
-      specializing in cybersecurity, software development, and data analysis. 
-      I’ve completed hands-on projects like password auditing using Kali Linux and 
-      documented my work on GitHub to demonstrate technical proficiency 
-      and ethical hacking practices. I’m actively building my skills through certifications
-      in cybersecurity, artificial intelligence, and cloud security, with a strong 
-      foundation in programming, algorithms, and user-centered design.
-      I’m passionate about solving real-world problems through technology and continuously
-      expanding my knowledge through practical experience and self-driven learning.</p>
+    <p>I’m a second-year Computer Science student at London South Bank University, specializing in cybersecurity, software development, and data analysis. I’ve completed hands-on projects like password auditing using Kali Linux and documented my work on GitHub to demonstrate technical proficiency and ethical hacking practices. I’m actively building my skills through certifications in cybersecurity, artificial intelligence, and cloud security, with a strong foundation in programming, algorithms, and user-centered design. I’m passionate about solving real-world problems through technology and continuously expanding my knowledge through practical experience and self-driven learning.</p>
   </section>
 
+  <!-- Experience -->
   <section id="experience">
     <h2>Experience</h2>
     <ul>
@@ -94,12 +196,18 @@
     </ul>
   </section>
 
+  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <p><strong>Password Audit with John the Ripper</strong> – Simulated MD5 hash cracking using Kali Linux and documented the process on GitHub.</p>
-    <p><a href="https://github.com/Prithika1810/johnlab-hashhunter" target="_blank">View Project on GitHub</a></p>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/600x300" alt="Password Audit Project">
+      <h3>Password Audit with John the Ripper</h3>
+      <p>Simulated MD5 hash cracking using Kali Linux and documented the process on GitHub.</p>
+      <a href="https://github.com/Prithika1810/johnlab-hashhunter" target="_blank">View Project on GitHub</a>
+    </div>
   </section>
 
+  <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
     <ul>
@@ -111,6 +219,7 @@
     </ul>
   </section>
 
+  <!-- Certifications -->
   <section id="certifications">
     <h2>Certifications</h2>
     <ul>
@@ -121,27 +230,12 @@
     </ul>
   </section>
 
+  <!-- Education -->
   <section id="education">
     <h2>Education</h2>
     <p><strong>BSc Computer Science (Hons)</strong> – London South Bank University</p>
     <p>September 2024</p>
     <ul>
-    FIRST YEAR SUBJECTS
       <li>Computer Science Fundamentals – Logic, architecture, and systems</li>
       <li>Software Development – Programming principles and problem-solving</li>
-      <li>Professional Practice – Ethics, communication, and industry readiness</li>
-      <li>Data Structures & Algorithms – Efficient data handling and algorithmic thinking</li>
-      <li>Discrete Mathematics – Sets, logic, graphs, and mathematical reasoning</li>
-      <li>Requirements Analysis & UCD – Designing intuitive systems based on user needs</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: prithika181006@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/prithika-gopinath-201934324" target="_blank">prithika-gopinath</a></p>
-  </section>
-
-</body>
-</html>
-
+      <Ï
