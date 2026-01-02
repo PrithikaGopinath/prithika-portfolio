@@ -109,86 +109,58 @@
     }
 
     /* Project Cards */
-   .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
-.project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
-  background-color: #fff;
-}
-.project-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-.project-card img {
-  max-width: 100%;
-  border-radius: 6px;
-  margin-bottom: 15px;
-}
-.project-card h3 {
-  margin-top: 0;
-  color: #1f2a44;
-}
-.project-card a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #1f2a44;
-  font-weight: 600;
-  text-decoration: none;
-}
-.project-card a:hover {
-  text-decoration: underline;
-}
-
-
-    /* Contact Form */
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
     }
-    input, textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
+    .project-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      background-color: #fff;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .project-card img {
+      max-width: 100%;
       border-radius: 6px;
-      font-size: 16px;
+      margin-bottom: 15px;
     }
-    button {
-      padding: 12px;
-      background-color: #1f2a44;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background 0.3s;
+    .project-card h3 {
+      margin-top: 0;
+      color: #1f2a44;
     }
-    button:hover {
-      background-color: #3b4d70;
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1f2a44;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .project-card a:hover {
+      text-decoration: underline;
     }
 
     footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #1f2a44;
-  color: white;
-  margin-top: 40px;
-}
-footer a {
-  color: #ffcc00;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: 600;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-
+      text-align: center;
+      padding: 20px;
+      background-color: #1f2a44;
+      color: white;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -197,7 +169,7 @@ footer a:hover {
   <header>
     <div class="hero-content">
       <h1>PRITHIKA GOPINATH</h1>
-      <p class="tagline">Cybersecurity Student | Developer | CSI Ambassador</p>
+      <p class="tagline">Computer Science Student | Cybersecurity Learner | CSI Ambassador</p>
       <a href="#projects" class="cta-button">View My Work</a>
     </div>
   </header>
@@ -217,7 +189,8 @@ footer a:hover {
   <!-- About -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m a second-year Computer Science student at London South Bank University, specializing in cybersecurity, software development, and data analysis. I’ve completed hands-on projects like password auditing using Kali Linux and documented my work on GitHub to demonstrate technical proficiency and ethical hacking practices. I’m actively building my skills through certifications in cybersecurity, artificial intelligence, and cloud security, with a strong foundation in programming, algorithms, and user-centered design. I’m passionate about solving real-world problems through technology and continuously expanding my knowledge through practical experience and self-driven learning.</p>
+    <p>I’m a second-year BSc Computer Science student at London South Bank University, currently strengthening my skills in cybersecurity and practical computing. I enjoy working with Linux, scripting, and hands-on security tasks that help me understand how systems behave in real environments.</p>
+    <p>I’m building my portfolio through consistent projects, technical documentation, and self-driven learning. My goal is to develop a strong foundation in cybersecurity while continuing to grow through practical experience and university coursework.</p>
   </section>
 
   <!-- Experience -->
@@ -225,59 +198,65 @@ footer a:hover {
     <h2>Experience</h2>
     <ul>
       <li>CSI Student Ambassador at LSBU (2024–Present)</li>
-      <li>Represented LSBU at outreach events and open days</li>
-      <li>Completed SPIKE™ Prime robotics training</li>
-      <li>Developed a mini game during ambassador training</li>
+      <li>Representing LSBU at outreach events and open days</li>
+      <li>Supporting students during workshops and activities</li>
+      <li>Completed SPIKE™ Prime robotics training and developed a small game during training</li>
     </ul>
   </section>
 
   <!-- Projects -->
   <section id="projects">
-  <h2>Projects</h2>
-  <div class="projects-grid">
+    <h2>Projects</h2>
+    <div class="projects-grid">
 
-    <!-- Project 1 -->
-    <div class="project-card">
-      <img src="https://via.placeholder.com/600x300" alt="Password Audit Project">
-      <h3>Password Audit with John the Ripper</h3>
-      <p>Simulated MD5 hash cracking using Kali Linux and documented the process on GitHub.</p>
-      <a href="https://github.com/Prithika1810/johnlab-hashhunter" target="_blank">View Project on GitHub</a>
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="https://via.placeholder.com/600x300" alt="Password Audit Project">
+        <h3>Password Audit with John the Ripper</h3>
+        <p>Simulated password cracking using MD5 hashes on Kali Linux and documented the full process on GitHub.</p>
+        <a href="https://github.com/Prithika1810/johnlab-hashhunter" target="_blank">View Project on GitHub</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="https://via.placeholder.com/600x300" alt="Cybersecurity Challenge">
+        <h3>100 Days of Cybersecurity (Ongoing)</h3>
+        <p>A structured, hands-on journey where I complete daily cybersecurity projects, write short reports, and build practical skills.</p>
+        <a href="https://github.com/Prithika1810/100-Days---100-Cybersecurity---Projects" target="_blank">View Project on GitHub</a>
+      </div>
+
     </div>
-  </div>
-</section>
+  </section>
 
- <!-- Competitions -->
- <section id="competition">
-   <h2>Competitions</h2>
-   <div class="projects-grid">
+  <!-- Competitions -->
+  <section id="competition">
+    <h2>Competitions</h2>
+    <div class="projects-grid">
 
-     <!-- Project 1 -->
-     <div class="project card">
-       <img src="" alt="AWS Project Screenshot">
-       <h3>AWS Cloud Project (Hackathon)</h3>
-       <p>Developed and deployed a cloud-based solution using AWS services as part of a competition. 
-          Focused on scalability, security, and efficient resource management.</p>
-       <a href= "https://partyrock.aws/u/prithika/1IfgddUWL/DataGuardian%253A-AI-Powered-Privacy-Coach" target="_blank">View AWS Project</a>
+      <div class="project-card">
+        <h3>AWS Cloud Project – Hackathon</h3>
+        <p>Developed and deployed a cloud-based solution using AWS services, focusing on security, scalability, and resource efficiency.</p>
+        <a href="https://partyrock.aws/u/prithika/1IfgddUWL/DataGuardian%253A-AI-Powered-Privacy-Coach" target="_blank">View AWS Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>University CTF 2025: Tinsel Trouble</h3>
+        <p>Participated in a university-level Capture the Flag challenge, solving tasks across multiple categories.</p>
+      </div>
+
     </div>
+  </section>
 
-     <!-- Project 2 -->
-     <div class="project card">
-       <img src="" alt="University CTF">
-       <h3>University CTF 2025: Tinsel Trouble</h3>
-       <p></p>
-     </div>
-  </div>
-</section>
-       
   <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Cybersecurity Fundamentals</li>
-      <li>Spike Prime Robotics</li>
-      <li>Creative Coding (Mini Game Dev)</li>
-      <li>Technical Documentation</li>
-      <li>Public Speaking & Event Representation</li>
+      <li>Cybersecurity fundamentals</li>
+      <li>Linux (Kali, Ubuntu)</li>
+      <li>Bash scripting</li>
+      <li>Networking basics</li>
+      <li>Technical documentation</li>
+      <li>Problem-solving and analytical thinking</li>
     </ul>
   </section>
 
@@ -292,54 +271,59 @@ footer a:hover {
     </ul>
   </section>
 
- <section id="education">
-  <h2>Education</h2>
-  <div class="edu-card">
-    <h3>BSc Computer Science (Hons)</h3>
-    <p><strong>London South Bank University</strong> — September 2024 ~ Present</p>
-    <p>Specialization: Cybersecurity, Software Development</p>
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>BSc Computer Science (Hons)</h3>
+      <p><strong>London South Bank University</strong> — 2024 ~ Present</p>
 
-    <h4>Year 1 Modules</h4>
-    <ul>
-      <li><strong>Fundamentals of Computer Science:</strong> Logic, architecture, and systems</li>
-      <li><strong>Fundamentals of Software Development:</strong> Programming principles and problem-solving</li>
-      <li><strong>Professional Practice:</strong> Ethics, communication, and industry readiness</li>
-      <li><strong>Data Structures & Algorithms:</strong> Efficient data handling and algorithmic thinking</li>
-      <li><strong>Discrete Mathematics:</strong> Sets, logic, graphs, and mathematical reasoning</li>
-      <li><strong>Requirements Analysis & UCD:</strong> Designing intuitive systems based on user needs</li>
-    </ul>
+      <h4>Year 1 Modules</h4>
+      <ul>
+        <li>Fundamentals of Computer Science</li>
+        <li>Fundamentals of Software Development</li>
+        <li>Professional Practice</li>
+        <li>Data Structures & Algorithms</li>
+        <li>Discrete Mathematics</li>
+        <li>Requirements Analysis & UCD</li>
+      </ul>
 
-    <h4>Year 2 Modules</h4>
-    <ul>
-      <li><strong>Object-Oriented Programming:</strong> Advanced Java, interfaces, design patterns, and maintainable code</li>
-      <li><strong>Operating Systems:</strong> Linux administration, process management, and system architecture</li>
-      <li><strong>Principles of Data Networks:</strong> Network protocols, security, and practical analysis</li>
-    </ul>
-  </div>
-</section>
+      <h4>Year 2 Modules</h4>
+      <ul>
+        <li>Object-Oriented Programming</li>
+        <li>Operating Systems</li>
+        <li>Principles of Data Networks</li>
+      </ul>
+    </div>
+  </section>
 
+  <!-- Contact -->
   <section id="contact">
-  <h2>Contact</h2>
-  <p>If you'd like to connect, feel free to reach out via email or LinkedIn, or send me a message using the form below.</p>
+    <h2>Contact</h2>
+    <p>If you'd like to connect, feel free to reach out via email or LinkedIn, or send me a message using the form below.</p>
 
-  <p><strong>Email:</strong> <a href="mailto:prithika181006@gmail.com">prithika181006@gmail.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prithika-gopinath-201934324" target="_blank">prithika-gopinath</a></p>
+    <p><strong>Email:</strong> <a href="mailto:prithika181006@gmail.com">prithika181006@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prithika-gopinath-201934324" target="_blank">prithika-gopinath</a></p>
 
-  <form action="mailto:prithika181006@gmail.com" method="post" enctype="text/plain">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+    <form action="mailto:prithika181006@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Prithika Gopinath</p>
-  <p>
-    <a href="mailto:prithika181006@gmail.com">Email</a> |
-    <a href="https://www.linkedin.com/in/prithika-gopinath-201934324" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/Prithika1810" target="_blank">GitHub</a>
-  </p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Prithika Gopinath</p>
+    <p>
+      <a href="mailto:prithika181006@gmail.com">Email</a> |
+      <a href="https://www.linkedin.com/in/prithika-gopinath-201934324" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Prithika1810" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
+
 
       
