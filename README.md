@@ -1,25 +1,61 @@
-# Hi, I'm Prithika 👋
-
-I'm a second-year BSc Computer Science student, currently strengthening my skills in the field of cybersecurity. I enjoy working with Linux, scripting, and building clean, structured projects that help me understand real security concepts in a practical way.
-
-### 🔥 What I'm Working On
-- **100 Days of Cybersecurity** – a daily collection of hands-on projects and writeups  
-- Learning core cybersecurity concepts through practical tasks  
-- Building a consistent, clear portfolio that reflects real technical work  
-
-### 🛠️ Skills & Tools
-- Linux (Kali, Ubuntu)
-- Bash scripting
-- Log analysis
-- Networking fundamentals
-- Cybersecurity fundamentals
-- Git & GitHub
-
-### 📁 Featured Project
-**100 Days of Cybersecurity**  
-A structured, hands-on journey where I document each project with a README, scripts, and a short report.  
-👉 [View the repository](https://github.com/Prithika1810/100-Days---100-Cybersecurity---Projects)
+# 🧿 Prithika | Cybersecurity Student @ LSBU  
+🔐 Linux • Networking • Digital Forensics • CSI Student Ambassador  
 
 ---
 
-I'm building my portfolio one project at a time — simple, consistent, and practical.
+## 🧠 Currently Working On  
+- 🧪 TryHackMe: Phishing Emails in Action  
+- 🧵 GitHub table mapping & markdown troubleshooting  
+- 🎨 Portfolio redesign (cyber dark mode + accent blue)  
+- 🛠️ Progressive cybersecurity projects for GitHub & LinkedIn  
+
+---
+
+## 🛠️ Tech Stack  
+| Category | Tools |
+|---------|-------|
+| **Cybersecurity** | Wireshark • Burp Suite • Autopsy |
+| **Linux** | Ubuntu • Bash • Systemd |
+| **Networking** | Cisco Packet Tracer • Nmap |
+| **Programming** | Python • Java |
+| **Tools** | Git • VS Code • GitHub |
+
+---
+
+## 📁 Featured Projects  
+
+### 🧠 Phishing Email Analysis  
+Mapped investigation of malicious headers, payloads, and indicators of compromise.  
+**Stack:** Linux • Forensics • Networking  
+
+---
+
+### 🧊 GitHub Table Formatter  
+Iterative markdown troubleshooting with mapped fixes and visual clarity.  
+**Stack:** GitHub • Markdown  
+
+---
+
+### 🔍 Weekly Cybersecurity Study Logs  
+Structured, colour‑coded documentation of weekly learning, challenges, and mapped workflows.  
+**Stack:** GitHub • Markdown • Linux  
+
+---
+
+## 📚 Currently Learning  
+- Digital forensics workflows  
+- Linux administration  
+- Networking fundamentals  
+- Cybersecurity project documentation  
+
+---
+
+## 🎧 Workflow Vibe  
+> Cyber dark mode. Accent blue. Minimal animations.  
+> Mapped clarity. No clutter. Full control.  
+
+---
+
+## 📫 Connect  
+[LinkedIn](#) • [GitHub](#) • [Portfolio](#)
+
