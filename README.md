@@ -52,9 +52,8 @@ Mapped forensics workflow to identify, crack, and document hash vulnerabilities.
 ---
 
 ## 📊 GitHub Stats  
-## 📊 GitHub Stats
 
-![Prithika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=prithikagopinath&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=0A84FF&icon_color=00CED1&text_color=B0CFFF)
+![Prithika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=PrithikaGopinath&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=0A84FF&icon_color=00CED1&text_color=B0CFFF)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=**yourusername**&layout=compact&theme=dark)
 
