@@ -41,8 +41,8 @@ Structured, colour‑coded documentation of weekly learning, challenges, and map
 ---
 
 ## 📊 GitHub Stats  
-![Prithika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark)
+![Prithika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=**yourusername**&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=**yourusername**&layout=compact&theme=dark)
 
 ---
 
@@ -61,8 +61,8 @@ Structured, colour‑coded documentation of weekly learning, challenges, and map
 ---
 
 ## 📫 Connect With Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourprofile)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A84FF?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/**yourprofile**)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/**yourusername**)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A84FF?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://**yourportfolio.com**)
 
 
