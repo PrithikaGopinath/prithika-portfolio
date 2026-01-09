@@ -61,8 +61,8 @@ Structured, colour‑coded documentation of weekly learning, challenges, and map
 ---
 
 ## 📫 Connect With Me  
-[![LinkedIn](www.linkedin.com/in/prithika-gopinath-201934324)  
-[![GitHub](https://github.com/PrithikaGopinath)  
-[![Portfolio](https://prithikagopinath.github.io/prithika-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prithika-gopinath-201934324) 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PrithikaGopinath) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A84FF?style=for-the-badge&logo=internet-explorer&logoColor=white)](https://prithikagopinath.github.io/prithika-portfolio/)
 
 
