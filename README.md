@@ -3,7 +3,7 @@
 ---
 
 ## 👋 Hi, I'm Prithika  
-CSI Student Ambassador • Cybersecurity Portfolio Builder • Markdown Table Fixer
+• Second Year BSc Computer Science (Hons) student • CSI Student Ambassador • Cybersecurity Portfolio Builder • Markdown Table Fixer
 
 ---
 
